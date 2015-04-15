@@ -1,0 +1,20 @@
+{
+  "name": "html_email_inliner",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-inline-css": "^2.0.0",
+    "gulp-livereload": "^3.8.0"
+  },
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-watch": "^4.2.4",
+    "gulp-premailer": "^0.4.0"
+  }
+}

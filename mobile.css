@@ -1,0 +1,28 @@
+@media only screen and (max-device-width: 480px) {
+  .container {
+    width: 100%;
+
+    }
+    img {
+      min-width:100%;
+    }
+    h1 {
+      font-size:50px;
+    }
+    .header-row  {
+      width:100%;
+    }
+
+    .main-image, .subtext {
+      display:block;
+      width:100%;
+      box-sizing:border-box;
+    }
+    .main-image {
+      min-width:100%;
+    }
+
+    .subtext {
+      font-size:40px;
+    }
+}

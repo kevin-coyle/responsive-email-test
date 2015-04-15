@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	
+	
+	
+	
+	
+</head>
+<body>
+<style type="text/css">
+@media only screen and (max-device-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  img {
+    min-width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .header-row {
+    width: 100%;
+  }
+  .main-image {
+    display: block; width: 100%; box-sizing: border-box;
+  }
+  .subtext {
+    display: block; width: 100%; box-sizing: border-box;
+  }
+  .main-image {
+    min-width: 100%;
+  }
+  .subtext {
+    font-size: 40px;
+  }
+}
+@media screen and (min-device-width:480px) {
+  .container {
+    width: 50%; margin: 0 auto;
+  }
+  .main-image {
+    display: block; float: left; width: 50%; box-sizing: border-box;
+  }
+  .subtext {
+    display: block; float: left; width: 50%; box-sizing: border-box;
+  }
+  .main-image img {
+    max-width: 100%; overflow: hidden;
+  }
+  .main-image {
+    padding-right: 10px;
+  }
+}
+</style>
+<table class="container">
+<tr>
+	<td class="test" style="width: 100%"><h1 style="border-bottom-style: solid; border-bottom-width: 1px; border-top-style: solid; border-top-width: 1px; font-family: 'arial', sans-serif; padding: 10px 0; width: 100%">Test</h1></td>
+</tr>
+	<tr>
+		<td class="main-image" style="width: 50%">
+			<img src="http://lorempixel.com/300/300" alt="">
+		</td>
+		<td class="subtext"><p style="font-family: 'arial', sans-serif">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum totam culpa maiores repudiandae asperiores atque officiis, iusto blanditiis natus modi minus id eos? Laboriosam rerum, enim. Doloremque consequatur eveniet explicabo.
+		</p></td>
+	</tr>
+</table>
+</body>
+</html>
