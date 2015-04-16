@@ -1,8 +1,31 @@
-/*Do not put layout styles in here*/
+.container {
+	width:600px;
+	margin: 0 auto;
+}
+
 .test {
 	width:100%;
 }
 
 .main-image {
-	width:50%;
+	display: block;
+	float: left;
+	width:30%;
+	overflow:hidden;
+}
+
+.subtext {
+	display: block;
+	padding-right: 10px;
+	width:69%;
+}
+
+.subtext p {
+	padding-left:10px;
+}
+.social {
+	width:32%;
+	background-color:pink;
+	color:white;
+	float: left;
 }
